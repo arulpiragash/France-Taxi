@@ -6,12 +6,10 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     overflow-x: hidden;
 }
@@ -44,7 +42,7 @@ body{
     color: var(--font-color);
     margin-right: 12px; 
     font-weight: bold;
-    z-index: 1000;
+    z-index: 1001;
 }
 .book-btn:hover{
     background-color: var(--secondary-color) !important;
@@ -645,7 +643,7 @@ body{
 .blue-van-contact-icons {
     position: fixed;
     left: 20px;
-    top: 85%;
+    top: 75%;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
@@ -654,8 +652,8 @@ body{
 }
 
 .blue-van-contact-icon {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     background: #000000;
     border-radius: 50%;
     display: flex;
@@ -673,14 +671,15 @@ body{
     background: #fdb913;
     color: #fff;
     transform: scale(1.1);
+    border-color: black;
 }
 
 .blue-van-plane-icon {
     position: fixed;
     right: 20px;
     bottom: 20px;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     background: #000;
     border-radius: 50%;
     display: flex;
@@ -699,6 +698,7 @@ body{
     background: #fdb913;
     color: #fff;
     transform: scale(1.1);
+    border-color: black;
 }
 
 /* ========================================== */
