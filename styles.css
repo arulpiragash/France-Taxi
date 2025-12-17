@@ -1,7 +1,7 @@
 :root{
-    --primary-color: #000000 !important;
-    --secondary-color: #FFFFFF !important;
-    --font-color: #D1AE6C !important;
+    --primary-color: #000000 ;
+    --secondary-color: #FFFFFF ;
+    --font-color: #D1AE6C ;
 }
 * {
     margin: 0;
@@ -28,7 +28,7 @@ body{
 }
 
 .navbar .navbar-nav .nav-link{
-    color: var(--font-color) !important;
+    color: var(--font-color) ;
 }
 
 .navbar-brand img{
@@ -40,14 +40,14 @@ body{
 .navbar .nav-link, 
 .navbar .btn, 
 .navbar .dropdown-toggle {
-    font-size: 16px !important;          
+    font-size: 16px ;          
     color: var(--font-color);
     margin-right: 12px; 
     font-weight: bold;
     z-index: 1000;
 }
 .book-btn:hover{
-    background-color: var(--secondary-color) !important;
+    background-color: var(--secondary-color) ;
     color: black;
 }
 .navbar,
@@ -169,14 +169,14 @@ body{
     background: rgba(209, 174, 108, 0.3);
     width: 100%;
     height: 100%;
-    margin-top: 0 !important;
+    margin-top: 0 ;
 }
 
 .our-fleets-container {
-    padding-top: 30px !important;
+    padding-top: 30px ;
     background:rgba(255,255,255,0.1);
     width: 100%;
-    margin-top: 0 !important;
+    margin-top: 0 ;
 }
 
 .fleet-card {
@@ -512,7 +512,7 @@ body{
     font-size: 50px;
     font-weight: 700;
     margin-top: 50px;
-    margin-bottom: 30px !important;
+    margin-bottom: 30px ;
 }
 
 .our-service-container p{
@@ -711,25 +711,25 @@ body{
 @media (max-width: 575px) { 
     /* Navbar */
     .navbar {
-        height: auto !important;
-        padding: 10px 0 !important;
+        height: auto ;
+        padding: 10px 0 ;
     }
     
     .navbar .navbar-brand img {
-        width: 150px !important;
-        height: auto !important;
+        width: 150px ;
+        height: auto ;
     }
     
     .navbar .nav-link, .navbar .btn, .navbar .dropdown-toggle {
-        font-size: 15px !important;
-        margin-right: 0 !important;
-        padding: 8px 12px !important;
+        font-size: 15px ;
+        margin-right: 0 ;
+        padding: 8px 12px ;
     }
     
     .navbar a[href="/booknow"].btn {
-        font-size: 13px !important;
-        padding: 8px 15px !important;
-        border-radius: 10px !important;
+        font-size: 13px ;
+        padding: 8px 15px ;
+        border-radius: 10px ;
         margin-top: 10px;
         width: 100%;
     }
@@ -739,7 +739,7 @@ body{
     }
     
     .navbar-nav {
-        margin: 0 !important;
+        margin: 0 ;
         width: 100%;
     }
     
@@ -749,10 +749,10 @@ body{
     }
     
     .navbar .d-flex {
-        flex-direction: column !important;
-        align-items: flex-start !important;
+        flex-direction: column ;
+        align-items: flex-start ;
         width: 100%;
-        gap: 10px !important;
+        gap: 10px ;
     }
     
     .navbar .dropdown {
@@ -776,12 +776,12 @@ body{
     }
     
     .bg-content h1 {
-        font-size: 22px !important;
+        font-size: 22px ;
         line-height: 1.4;
     }
     
     .bg-content h1 span {
-        text-indent: 0 !important;
+        text-indent: 0 ;
         margin-top: 10px;
         font-size: 22px;
     }
@@ -799,11 +799,11 @@ body{
     }
     
     .about-container .abt-container {
-        width: 100% !important;
+        width: 100% ;
     }
     
     .about-container h2, .transfer-container h2 {
-        font-size: 26px !important;
+        font-size: 26px ;
         margin-bottom: 15px;
     }
     
@@ -824,11 +824,11 @@ body{
     }
     
     .our-fleets-container {
-        padding: 20px 10px !important;
+        padding: 20px 10px ;
     }
     
     .our-fleets-container h2 {
-        font-size: 26px !important;
+        font-size: 26px ;
         margin-bottom: 20px;
     }
     
@@ -847,12 +847,12 @@ body{
     }
     
     .vehicle-type {
-        font-size: 20px !important;
+        font-size: 20px ;
         margin-bottom: 15px;
     }
     
     .spec-item {
-        font-size: 14px !important;
+        font-size: 14px ;
         margin-bottom: 8px;
     }
     
@@ -862,7 +862,7 @@ body{
     }
     
     .end-fleets p {
-        font-size: 13px !important;
+        font-size: 13px ;
         padding: 0 10px;
     }
     
@@ -891,24 +891,24 @@ body{
     }
     
     .transfer-card p {
-        font-size: 14px !important;
+        font-size: 14px ;
         line-height: 1.5;
     }
     
     .transfer-card .list-transfer li {
-        font-size: 13px !important;
+        font-size: 13px ;
         margin-bottom: 8px;
     }
     
     .transfer-icon {
-        font-size: 35px !important;
-        width: 60px !important;
-        height: 60px !important;
+        font-size: 35px ;
+        width: 60px ;
+        height: 60px ;
         margin-left: 0;
     }
     
     .end-transfers p {
-        font-size: 13px !important;
+        font-size: 13px ;
         padding: 0 10px;
     }
     
@@ -924,12 +924,12 @@ body{
     }
     
     .why-choose-container h2 {
-        font-size: 26px !important;
+        font-size: 26px ;
         margin-bottom: 15px;
     }
     
     .why-choose-container p {
-        font-size: 13px !important;
+        font-size: 13px ;
         line-height: 1.5;
     }
     
@@ -938,12 +938,12 @@ body{
     }
     
     .why-choose-container img {
-        width: 100% !important;
+        width: 100% ;
         margin-bottom: 20px;
     }
     
     .why-choose-container .d-flex {
-        flex-direction: column !important;
+        flex-direction: column ;
     }
     
     .why-choose-container li {
@@ -957,7 +957,7 @@ body{
     }
     
     .privileges-cards-container .card {
-        width: 100% !important;
+        width: 100% ;
         padding: 20px;
         font-size: 14px;
         margin-bottom: 0;
@@ -973,7 +973,7 @@ body{
     }
     
     .privileges-cards-container i {
-        font-size: 40px !important;
+        font-size: 40px ;
     }
     
     /* Carousel */
@@ -983,7 +983,7 @@ body{
     }
     
     .carousel-slide {
-        min-width: calc(100% - 10px) !important;
+        min-width: calc(100% - 10px) ;
         margin: 0 5px;
     }
     
@@ -998,7 +998,7 @@ body{
     }
     
     .slide-title {
-        font-size: 14px !important;
+        font-size: 14px ;
         margin-bottom: 10px;
     }
     
@@ -1010,17 +1010,17 @@ body{
     }
     
     .nav-btn {
-        width: 30px !important;
-        height: 30px !important;
-        font-size: 16px !important;
+        width: 30px ;
+        height: 30px ;
+        font-size: 16px ;
     }
     
     .nav-btn.prev {
-        left: 0 !important;
+        left: 0 ;
     }
     
     .nav-btn.next {
-        right: 0 !important;
+        right: 0 ;
     }
     
     /* Service Locations */
@@ -1029,19 +1029,19 @@ body{
     }
     
     .our-service-container h2 {
-        font-size: 26px !important;
-        margin-top: 20px !important;
-        margin-bottom: 15px !important;
+        font-size: 26px ;
+        margin-top: 20px ;
+        margin-bottom: 15px ;
     }
     
     .our-service-container p {
-        font-size: 13px !important;
-        margin-bottom: 30px !important;
+        font-size: 13px ;
+        margin-bottom: 30px ;
         padding: 0 10px;
     }
     
     .our-service-container h4 {
-        font-size: 15px !important;
+        font-size: 15px ;
         padding: 0 10px;
     }
     
@@ -1055,7 +1055,7 @@ body{
     }
     
     .blue-van-reviews .header h1 {
-        font-size: 1.3rem !important;
+        font-size: 1.3rem ;
     }
     
     .blue-van-reviews .tripadvisor-badge {
@@ -1072,11 +1072,11 @@ body{
     .blue-van-reviews .review-card {
         margin: 10px 5px;
         padding: 15px;
-        min-height: auto !important;
+        min-height: auto ;
     }
     
     .blue-van-reviews .reviewer-name {
-        font-size: 1rem !important;
+        font-size: 1rem ;
     }
     
     .blue-van-reviews .contributions {
@@ -1122,17 +1122,17 @@ body{
     }
     
     .blue-van-contact-icon {
-        width: 38px !important;
-        height: 38px !important;
-        font-size: 0.95rem !important;
+        width: 38px ;
+        height: 38px ;
+        font-size: 0.95rem ;
     }
     
     .blue-van-plane-icon {
-        width: 42px !important;
-        height: 42px !important;
-        font-size: 1.1rem !important;
-        right: 10px !important;
-        bottom: 10px !important;
+        width: 42px ;
+        height: 42px ;
+        font-size: 1.1rem ;
+        right: 10px ;
+        bottom: 10px ;
     }
 }
 
@@ -1143,28 +1143,28 @@ body{
 @media (max-width: 575px) { 
     /* NAVBAR */
     .navbar {
-        height: auto !important;
-        padding: 10px 0 !important;
+        height: auto ;
+        padding: 10px 0 ;
     }
     
     .navbar .navbar-brand img {
-        width: 200px !important;
-        height: auto !important;
+        width: 200px ;
+        height: auto ;
     }
 
     .navbar .nav-link, 
     .navbar .btn, 
     .navbar .dropdown-toggle {
-        font-size: 15px !important;
-        margin-right: 0 !important;
-        padding: 8px 12px !important;
+        font-size: 15px ;
+        margin-right: 0 ;
+        padding: 8px 12px ;
         z-index: 1000;
     }
     
     .navbar a[href="/booknow"].btn {
-        font-size: 13px !important;
-        padding: 8px 15px !important;
-        border-radius: 10px !important;
+        font-size: 13px ;
+        padding: 8px 15px ;
+        border-radius: 10px ;
         margin-top: 10px;
         width: 100%;
         z-index: 1;
@@ -1175,7 +1175,7 @@ body{
     }
     
     .navbar-nav {
-        margin: 0 !important;
+        margin: 0 ;
         width: 100%;
     }
     
@@ -1185,10 +1185,10 @@ body{
     }
     
     .navbar .d-flex {
-        flex-direction: column !important;
-        align-items: flex-start !important;
+        flex-direction: column ;
+        align-items: flex-start ;
         width: 100%;
-        gap: 8px !important;
+        gap: 8px ;
     }
     
     .navbar .dropdown {
@@ -1202,446 +1202,445 @@ body{
     
     /* HERO SECTION */
     .bg-container {
-        background-attachment: scroll !important;
-        height: 70vh !important;
-        min-height: 500px !important;
+        background-attachment: scroll ;
+        height: 70vh ;
+        min-height: 500px ;
     }
     
     .bg-content {
-        padding: 0 15px !important;
+        padding: 0 15px ;
     }
     
     .bg-content h1 {
-        font-size: 22px !important;
-        line-height: 1.4 !important;
+        font-size: 22px ;
+        line-height: 1.4 ;
     }
     
     .bg-content h1 span {
-        text-indent: 0 !important;
-        margin-top: 10px !important;
-        font-size: 22px !important;
+        text-indent: 0 ;
+        margin-top: 10px ;
+        font-size: 22px ;
     }
     
     /* MESSAGE BAR */
     .message-bar {
-        font-size: 13px !important;
-        padding: 10px 5px !important;
+        font-size: 13px ;
+        padding: 10px 5px ;
     }
     
     /* ABOUT SECTION */
     .about-container {
-        padding: 30px 15px !important;
-        font-size: 15px !important;
+        padding: 30px 15px ;
+        font-size: 15px ;
     }
     
     .about-container .abt-container {
-        width: 100% !important;
+        width: 100% ;
     }
     
     .about-container h2, 
     .transfer-container h2 {
-        font-size: 26px !important;
-        margin-bottom: 15px !important;
+        font-size: 26px ;
+        margin-bottom: 15px ;
     }
     
     .about-container p {
-        font-size: 14px !important;
-        line-height: 1.6 !important;
+        font-size: 14px ;
+        line-height: 1.6 ;
     }
     
     .about-container .btn {
-        font-size: 13px !important;
-        padding: 8px 16px !important;
-        margin: 5px !important;
+        font-size: 13px ;
+        padding: 8px 16px ;
+        margin: 5px ;
     }
     
     /* FLEET SECTION */
     .container-fleets {
-        padding: 20px 10px !important;
+        padding: 20px 10px ;
     }
     
     .our-fleets-container {
-        padding: 20px 10px !important;
+        padding: 20px 10px ;
     }
     
     .our-fleets-container h2 {
-        font-size: 26px !important;
-        margin-bottom: 20px !important;
+        font-size: 26px ;
+        margin-bottom: 20px ;
     }
     
     .our-fleets-container .row {
-        padding: 20px 10px !important;
+        padding: 20px 10px ;
     }
     
     .fleet-card {
-        padding: 20px !important;
-        margin: 0 auto 20px auto !important;
-        max-width: 100% !important;
-        width: 100% !important;
+        padding: 20px ;
+        margin: 0 auto 20px auto ;
+        max-width: 100% ;
+        width: 100% ;
     }
     
     .fleet-card:first-child,
     .fleet-card:last-child {
-        margin-left: auto !important;
-        margin-right: auto !important;
+        margin-left: auto ;
+        margin-right: auto ;
     }
     
     .vehicle-image {
-        height: 150px !important;
+        height: 150px ;
     }
     
     .vehicle-name {
-        font-size: 15px !important;
+        font-size: 15px ;
     }
     
     .vehicle-type {
-        font-size: 20px !important;
-        margin-bottom: 15px !important;
+        font-size: 20px ;
+        margin-bottom: 15px ;
     }
     
     .spec-item {
-        font-size: 14px !important;
-        margin-bottom: 8px !important;
+        font-size: 14px ;
+        margin-bottom: 8px ;
     }
     
     .spec-item i {
-        width: 18px !important;
-        font-size: 14px !important;
+        width: 18px ;
+        font-size: 14px ;
     }
     
     .end-fleets p {
-        font-size: 13px !important;
-        padding: 0 10px !important;
+        font-size: 13px ;
+        padding: 0 10px ;
     }
     
     .end-fleets .btn {
-        font-size: 13px !important;
-        padding: 8px 16px !important;
+        font-size: 13px ;
+        padding: 8px 16px ;
     }
     
     /* TRANSFER SECTION */
     .transfer-container {
-        padding: 30px 15px !important;
-        font-size: 14px !important;
+        padding: 30px 15px ;
+        font-size: 14px ;
     }
     
     .transfer-cards-container {
-        gap: 15px !important;
-        flex-direction: column !important;
+        gap: 15px ;
+        flex-direction: column ;
     }
     
     .transfer-container .transfer-card {
-        max-width: 100% !important;
-        width: 100% !important;
-        padding: 15px !important;
-        margin-bottom: 15px !important;
+        max-width: 100% ;
+        width: 100% ;
+        padding: 15px ;
+        margin-bottom: 15px ;
     }
     
     .transfer-card h3 {
-        font-size: 18px !important;
+        font-size: 18px ;
     }
     
     .transfer-card p {
-        font-size: 14px !important;
-        line-height: 1.5 !important;
+        font-size: 14px ;
+        line-height: 1.5 ;
     }
     
     .transfer-card .list-transfer li {
-        font-size: 13px !important;
-        margin-bottom: 8px !important;
+        font-size: 13px ;
+        margin-bottom: 8px ;
     }
     
     .transfer-icon {
-        font-size: 35px !important;
-        width: 60px !important;
-        height: 60px !important;
-        margin-left: 0 !important;
+        font-size: 35px ;
+        width: 60px ;
+        height: 60px ;
+        margin-left: 0 ;
     }
     
     .end-transfers p {
-        font-size: 13px !important;
-        padding: 0 10px !important;
+        font-size: 13px ;
+        padding: 0 10px ;
     }
     
     .end-transfers .btn {
-        font-size: 13px !important;
-        padding: 8px 16px !important;
+        font-size: 13px ;
+        padding: 8px 16px ;
     }
     
     /* WHY CHOOSE SECTION */
     .why-choose-container {
-        padding: 30px 15px !important;
-        font-size: 14px !important;
+        padding: 30px 15px ;
+        font-size: 14px ;
     }
     
     .why-choose-container h2 {
-        font-size: 26px !important;
-        margin-bottom: 15px !important;
+        font-size: 26px ;
+        margin-bottom: 15px ;
     }
     
     .why-choose-container p {
-        font-size: 13px !important;
-        line-height: 1.5 !important;
+        font-size: 13px ;
+        line-height: 1.5 ;
     }
     
     .why-choose-container .row {
-        flex-direction: column-reverse !important;
+        flex-direction: column-reverse ;
     }
     
     .why-choose-container img {
-        width: 100% !important;
-        margin-bottom: 20px !important;
+        width: 100% ;
+        margin-bottom: 20px ;
     }
     
     .why-choose-container .d-flex {
-        flex-direction: column !important;
+        flex-direction: column ;
     }
     
     .why-choose-container li {
-        font-size: 13px !important;
-        margin-bottom: 8px !important;
+        font-size: 13px ;
+        margin-bottom: 8px ;
     }
     
     .why-choose-container .list-why-choose {
-        width: 100% !important;
+        width: 100% ;
     }
     
     /* PRIVILEGES SECTION */
     .privileges-cards-container {
-        gap: 15px !important;
+        gap: 15px ;
     }
     
     .privileges-cards-container .card {
-        width: 100% !important;
-        max-width: 100% !important;
-        padding: 20px !important;
-        font-size: 14px !important;
-        margin-bottom: 0 !important;
-        flex: 1 1 100% !important;
+        width: 100% ;
+        padding: 20px ;
+        font-size: 14px ;
+        margin-bottom: 0 ;
+        flex: 1 1 100% ;
     }
     
     .privileges-cards-container .card h5 {
-        font-size: 16px !important;
+        font-size: 16px ;
     }
     
     .privileges-cards-container .card p {
-        font-size: 13px !important;
-        margin-top: 10px !important;
+        font-size: 13px ;
+        margin-top: 10px ;
     }
     
     .privileges-cards-container i {
-        font-size: 40px !important;
+        font-size: 40px ;
     }
     
     .privileges-cards-container .row {
-        gap: 15px !important;
+        gap: 15px ;
     }
     
     /* CAROUSEL SECTION */
     .carousel-container {
-        padding: 0 10px !important;
-        max-width: 100% !important;
+        padding: 0 10px ;
+        max-width: 100% ;
     }
     
     .carousel-slide {
-        min-width: calc(100% - 10px) !important;
-        margin: 0 5px !important;
+        min-width: calc(100% - 10px) ;
+        margin: 0 5px ;
     }
     
     .slide-images {
-        height: 180px !important;
+        height: 180px ;
     }
     
     .slide-content {
-        padding: 15px !important;
-        flex-direction: column !important;
-        text-align: center !important;
+        padding: 15px ;
+        flex-direction: column ;
+        text-align: center ;
     }
     
     .slide-title {
-        font-size: 14px !important;
-        margin-bottom: 10px !important;
+        font-size: 14px ;
+        margin-bottom: 10px ;
     }
     
     .slide-content .book-btn {
-        padding: 8px 16px !important;
-        font-size: 11px !important;
-        width: 100% !important;
-        justify-content: center !important;
+        padding: 8px 16px ;
+        font-size: 11px ;
+        width: 100% ;
+        justify-content: center ;
     }
     
     .nav-btn {
-        width: 30px !important;
-        height: 30px !important;
-        font-size: 16px !important;
+        width: 30px ;
+        height: 30px ;
+        font-size: 16px ;
     }
     
     .nav-btn.prev {
-        left: 0 !important;
+        left: 0 ;
     }
     
     .nav-btn.next {
-        right: 0 !important;
+        right: 0 ;
     }
     
     /* SERVICE LOCATIONS */
     .our-service-container {
-        padding: 20px 15px !important;
+        padding: 20px 15px ;
     }
     
     .our-service-container h2 {
-        font-size: 26px !important;
-        margin-top: 20px !important;
-        margin-bottom: 15px !important;
+        font-size: 26px ;
+        margin-top: 20px ;
+        margin-bottom: 15px ;
     }
     
     .our-service-container p {
-        font-size: 13px !important;
-        margin-bottom: 30px !important;
-        padding: 0 10px !important;
+        font-size: 13px ;
+        margin-bottom: 30px ;
+        padding: 0 10px ;
     }
     
     .our-service-container h4 {
-        font-size: 15px !important;
-        padding: 0 10px !important;
+        font-size: 15px ;
+        padding: 0 10px ;
     }
     
     /* REVIEWS SECTION */
     .blue-van-reviews {
-        padding: 30px 0 !important;
+        padding: 30px 0 ;
     }
     
     .blue-van-reviews .header {
-        padding: 0 15px 30px !important;
+        padding: 0 15px 30px ;
     }
     
     .blue-van-reviews .header h1 {
-        font-size: 1.3rem !important;
+        font-size: 1.3rem ;
     }
     
     .blue-van-reviews .tripadvisor-badge {
-        font-size: 11px !important;
-        padding: 6px 12px !important;
-        gap: 5px !important;
+        font-size: 11px ;
+        padding: 6px 12px ;
+        gap: 5px ;
     }
     
     .blue-van-reviews .tripadvisor-logo {
-        width: 24px !important;
-        height: 24px !important;
+        width: 24px ;
+        height: 24px ;
     }
     
     .blue-van-reviews .review-card {
-        margin: 10px 5px !important;
-        padding: 15px !important;
-        min-height: auto !important;
+        margin: 10px 5px ;
+        padding: 15px ;
+        min-height: auto ;
     }
     
     .blue-van-reviews .reviewer-name {
-        font-size: 1rem !important;
+        font-size: 1rem ;
     }
     
     .blue-van-reviews .contributions {
-        font-size: 0.75rem !important;
+        font-size: 0.75rem ;
     }
     
     .blue-van-reviews .review-text {
-        font-size: 0.85rem !important;
-        line-height: 1.5 !important;
+        font-size: 0.85rem ;
+        line-height: 1.5 ;
     }
     
     .blue-van-reviews .stars {
-        font-size: 1rem !important;
+        font-size: 1rem ;
     }
     
     .blue-van-reviews .review-badge {
-        font-size: 0.7rem !important;
-        padding: 3px 10px !important;
+        font-size: 0.7rem ;
+        padding: 3px 10px ;
     }
     
     .blue-van-reviews .review-date {
-        font-size: 0.7rem !important;
+        font-size: 0.7rem ;
     }
     
     .blue-van-reviews .carousel-control-prev,
     .blue-van-reviews .carousel-control-next {
-        width: 35px !important;
-        height: 35px !important;
+        width: 35px ;
+        height: 35px ;
     }
     
     .blue-van-reviews .carousel-control-prev {
-        left: -15px !important;
+        left: -15px ;
     }
     
     .blue-van-reviews .carousel-control-next {
-        right: -15px !important;
+        right: -15px ;
     }
     
     /* CONTACT ICONS */
     .blue-van-contact-icons {
-        left: 5px !important;
-        gap: 8px !important;
+        left: 5px ;
+        gap: 8px ;
     }
     
     .blue-van-contact-icon {
-        width: 38px !important;
-        height: 38px !important;
-        font-size: 0.95rem !important;
+        width: 38px ;
+        height: 38px ;
+        font-size: 0.95rem ;
     }
     
     /* BACK TO TOP ICON */
     .blue-van-plane-icon {
-        width: 42px !important;
-        height: 42px !important;
-        font-size: 1.1rem !important;
-        right: 10px !important;
-        bottom: 10px !important;
+        width: 42px ;
+        height: 42px ;
+        font-size: 1.1rem ;
+        right: 10px ;
+        bottom: 10px ;
     }
     
     /* GENERAL MOBILE ADJUSTMENTS */
     .container-fluid {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
+        padding-left: 15px ;
+        padding-right: 15px ;
     }
     
     .row {
-        margin-left: -10px !important;
-        margin-right: -10px !important;
+        margin-left: -10px ;
+        margin-right: -10px ;
     }
     
     .col, .col-lg-4, .col-md-6 {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
+        padding-left: 10px ;
+        padding-right: 10px ;
     }
     
     /* ENSURE NO HORIZONTAL SCROLL */
     body {
-        overflow-x: hidden !important;
+        overflow-x: hidden ;
     }
     
     img {
-        max-width: 100% !important;
-        height: auto !important;
+        max-width: 100% ;
+        height: auto ;
     }
 }
 
 /* Small devices (sm) - 576px to 767px */
 @media (min-width: 576px) and (max-width: 767px) {
     .navbar {
-        height: auto !important;
-        padding: 12px 0 !important;
+        height: auto ;
+        padding: 12px 0 ;
     }
     
     .navbar .navbar-brand img {
-        width: 250px !important;
+        width: 250px ;
     }
     
     .navbar .nav-link, .navbar .btn, .navbar .dropdown-toggle {
-        font-size: 16px !important;
+        font-size: 16px ;
     }
     
     .navbar a[href="/booknow"].btn {
-        font-size: 14px !important;
-        padding: 10px 18px !important;
+        font-size: 14px ;
+        padding: 10px 18px ;
     }
     
     .bg-container {
@@ -1649,11 +1648,11 @@ body{
     }
     
     .bg-content h1 {
-        font-size: 30px !important;
+        font-size: 30px ;
     }
     
     .bg-content h1 span {
-        text-indent: 0 !important;
+        text-indent: 0 ;
     }
     
     .message-bar {
@@ -1661,23 +1660,23 @@ body{
     }
     
     .about-container h2, .transfer-container h2 {
-        font-size: 34px !important;
+        font-size: 34px ;
     }
     
     .our-fleets-container h2 {
-        font-size: 34px !important;
+        font-size: 34px ;
     }
     
     .carousel-slide {
-        min-width: calc(100% - 20px) !important;
+        min-width: calc(100% - 20px) ;
     }
     
     .our-service-container h2 {
-        font-size: 34px !important;
+        font-size: 34px ;
     }
     
     .why-choose-container h2 {
-        font-size: 34px !important;
+        font-size: 34px ;
     }
     
     .fleet-card {
@@ -1688,30 +1687,30 @@ body{
 /* Tablets (md) - 768px to 991px */
 @media (min-width: 768px) and (max-width: 991px) {
     .navbar {
-        height: auto !important;
-        padding: 15px 0 !important;
+        height: auto ;
+        padding: 15px 0 ;
     }
     
     .navbar .navbar-brand img {
-        width: 240px !important;
+        width: 240px ;
     }
     
     .navbar .nav-link, .navbar .btn, .navbar .dropdown-toggle {
-        font-size: 17px !important;
-        margin-right: 8px !important;
+        font-size: 17px ;
+        margin-right: 8px ;
     }
     
     .navbar a[href="/booknow"].btn {
-        font-size: 15px !important;
-        padding: 11px 20px !important;
+        font-size: 15px ;
+        padding: 11px 20px ;
     }
     
     .bg-content h1 {
-        font-size: 38px !important;
+        font-size: 38px ;
     }
     
     .bg-content h1 span {
-        text-indent: -200px !important;
+        text-indent: -200px ;
     }
     
     .message-bar {
@@ -1723,15 +1722,15 @@ body{
     }
     
     .about-container h2, .transfer-container h2 {
-        font-size: 42px !important;
+        font-size: 42px ;
     }
     
     .our-fleets-container h2 {
-        font-size: 42px !important;
+        font-size: 42px ;
     }
     
     .carousel-slide {
-        min-width: calc(50% - 20px) !important;
+        min-width: calc(50% - 20px) ;
     }
     
     .transfer-container .transfer-card {
@@ -1739,11 +1738,11 @@ body{
     }
     
     .our-service-container h2 {
-        font-size: 42px !important;
+        font-size: 42px ;
     }
     
     .why-choose-container h2 {
-        font-size: 42px !important;
+        font-size: 42px ;
     }
     
     .privileges-cards-container .card {
@@ -1764,10 +1763,10 @@ body{
     }
     
     .fleet-card:last-child {
-        margin-left: -30px !important;
+        margin-left: -30px ;
     }
 
     .fleet-card:first-child {
-        margin-left: 17px !important;
+        margin-left: 17px ;
     }
 }

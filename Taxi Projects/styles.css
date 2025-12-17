@@ -1,6 +1,6 @@
 :root {
-            --primary-color: #1a1a2e;
-            --secondary-color: #d4af37;
+            --pri-color: #1a1a2e;
+            --sec-color: #d4af37;
             --text-light: #f8f9fa;
         }
 
@@ -8,43 +8,6 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             margin: 0;
             padding: 0;
-        }
-
-        /* Header */
-        .navbar {
-            background-color: rgba(26, 26, 46, 0.95);
-            padding: 1rem 0;
-            border-bottom: 1px solid #d4af37; 
-        }
-
-        .navbar-brand img {
-            height: 40px;
-        }
-
-        .navbar-nav .nav-link {
-            color: var(--text-light) !important;
-            margin: 0 15px;
-            font-size: 14px;
-            transition: color 0.3s;
-        }
-
-        .navbar-nav .nav-link:hover {
-            color: var(--secondary-color) !important;
-        }
-
-        .btn-book {
-            background-color: var(--secondary-color);
-            color: var(--primary-color);
-            padding: 8px 25px;
-            border-radius: 5px;
-            font-weight: 600;
-            border: none;
-            transition: all 0.3s;
-        }
-
-        .btn-book:hover {
-            background-color: #c49d2f;
-            transform: translateY(-2px);
         }
 
         /* Hero Section */
@@ -70,7 +33,7 @@
 
         .btn-hero {
             background-color: white;
-            color: var(--primary-color);
+            color: var(--pri-color);
             padding: 12px 35px;
             border-radius: 30px;
             font-weight: 600;
@@ -79,7 +42,7 @@
         }
 
         .btn-hero:hover {
-            background-color: var(--secondary-color);
+            background-color: var(--sec-color);
             transform: scale(1.05);
         }
 
@@ -93,7 +56,7 @@
             text-align: center;
             font-size: 2.5rem;
             font-weight: 700;
-            color: var(--primary-color);
+            color: var(--pri-color);
             margin-bottom: 50px;
         }
 
@@ -110,7 +73,7 @@
             font-size: 1.3rem;
             font-weight: 700;
             margin-bottom: 25px;
-            color: var(--primary-color);
+            color: var(--pri-color);
         }
 
         .faq-sidebar ul {
@@ -132,7 +95,7 @@
         }
 
         .faq-sidebar a:hover, .faq-sidebar a.active {
-            color: var(--secondary-color);
+            color: var(--sec-color);
             padding-left: 10px;
         }
 
@@ -147,10 +110,10 @@
         .faq-content h3 {
             font-size: 1.8rem;
             font-weight: 700;
-            color: var(--primary-color);
+            color: var(--pri-color);
             margin-bottom: 30px;
             padding-bottom: 15px;
-            border-bottom: 3px solid var(--secondary-color);
+            border-bottom: 3px solid var(--sec-color);
         }
 
         .accordion-item {
@@ -161,7 +124,7 @@
 
         .accordion-button {
             background-color: transparent;
-            color: var(--primary-color);
+            color: var(--pri-color);
             font-weight: 600;
             font-size: 1rem;
             padding: 20px 0;
@@ -171,7 +134,7 @@
 
         .accordion-button:not(.collapsed) {
             background-color: transparent;
-            color: var(--secondary-color);
+            color: var(--sec-color);
         }
 
         .accordion-button::after {
@@ -508,7 +471,7 @@
 
         .site-link {
             background-color: rgba(212, 175, 55, 0.1);
-            border: 1px solid var(--secondary-color);
+            border: 1px solid var(--sec-color);
             color: #D1AE6C;;
             padding: 10px 20px;
             border-radius: 5px;

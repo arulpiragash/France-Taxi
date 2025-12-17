@@ -11,61 +11,6 @@
             width: 100%;
         }
 
-        /* Navbar */
-
-
-        .navbar {
-        background: #000 !important;   /* solid black */
-        backdrop-filter: none !important;
-        }
-
-        .navbar {
-            background: rgba(0, 0, 0, 0.9);
-            padding: 1rem 3rem;
-        }
-
-        .navbar-brand img {
-            height: 50px;
-        }
- 
-        .nav-link   {
-         color: rgb(243, 213, 113) !important;
-            margin: 0 1rem;
-            font-size: 1.0rem;
-        }
-
-        .form-select    {
-          color: #000;
-          background:rgb(243, 213, 113);
-        }
-
-
-        .navbar-nav .nav-link {
-            color: rgb(243, 213, 113) !important;
-            margin: 0 1rem;
-            font-size: 1.0rem;
-        }
-
-
-        .navbar-nav .nav-link:hover {
-            color: #f8f9fa !important;
-        }
-
-        .btn-book {
-            background:rgb(243, 213, 113);
-            color: var(--dark-bg);
-            font-weight: 700;
-            padding: 0.6rem 1.6rem;
-            border-radius: 5px;
-            border: 0.2px;
-           
-        }
-   
-           .btn-book:hover {
-            background: #c89963;
-            transform: scale(1.05);
-             border: 0.2px;
-        }
 
         /* Hero Section */
         .hero-section {
