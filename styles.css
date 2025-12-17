@@ -31,7 +31,8 @@ body{
 
 .navbar-brand img{
     height: 80px;
-    width: 350px;
+    width: auto;
+    max-width: 300px !important;
 }
 
 .navbar, 
