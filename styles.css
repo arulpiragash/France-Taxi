@@ -40,7 +40,7 @@ body{
 .navbar .nav-link, 
 .navbar .btn, 
 .navbar .dropdown-toggle {
-    font-size: 18px !important;          
+    font-size: 16px !important;          
     color: var(--font-color);
     margin-right: 12px; 
     font-weight: bold;
@@ -1756,66 +1756,6 @@ body{
     }
 }
 
-/* Laptops (lg) - 992px to 1199px */
-@media (min-width: 992px) and (max-width: 1199px) {
-    .navbar {
-        height: 110px !important;
-    }
-    
-    .navbar .navbar-brand img {
-        width: 280px !important;
-    }
-    
-    .navbar .nav-link, .navbar .btn, .navbar .dropdown-toggle {
-        font-size: 19px !important;
-        margin-right: 8px !important;
-    }
-    
-    .navbar a[href="/booknow"].btn {
-        font-size: 16px !important;
-        padding: 12px 22px !important;
-    }
-    
-    .bg-content h1 {
-        font-size: 48px !important;
-    }
-    
-    .bg-content h1 span {
-        text-indent: -350px !important;
-    }
-    
-    .message-bar {
-        font-size: 20px;
-    }
-    
-    .about-container {
-        font-size: 20px;
-    }
-    
-    .about-container h2, .transfer-container h2 {
-        font-size: 50px !important;
-    }
-    
-    .our-fleets-container h2 {
-        font-size: 46px !important;
-    }
-    
-    .fleet-card {
-        max-width: 420px;
-    }
-    
-    .our-service-container h2 {
-        font-size: 50px !important;
-    }
-    
-    .why-choose-container h2 {
-        font-size: 46px !important;
-    }
-    
-    .carousel-slide {
-        min-width: calc(33.333% - 20px) !important;
-    }
-}
 
 /* Desktops (xl) - 1200px to 1399px */
 @media (min-width: 1200px) and (max-width: 1399px) {
