@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Groupe Blue Van Paris - Premium Transportation Service</title>
+    <title>About Us - Groupe Blue Van Paris - Premium Transportation Service</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
@@ -11,6 +11,44 @@
 
     </head>
 <body>
+    <!-- Universal Loader Popup -->
+    <div class="loader-overlay" id="universalLoader" style="display:none;">
+        <div class="loader-box">
+            <img src="img/logo.png" alt="Logo" class="loader-logo">
+            <p class="loader-text" id="loaderMessage"></p>
+            <div class="loader"></div>
+            <p class="countdown-text">Redirecting in <span id="loaderCountdown">5</span> seconds...</p>
+        </div>
+    </div>
+    <script>
+        function showLoader(message, url) {
+
+            document.getElementById("universalLoader").style.display = "flex";
+            document.getElementById("loaderMessage").innerText = message;
+
+            let countdown = 5;
+            document.getElementById("loaderCountdown").textContent = countdown;
+
+            let timer = setInterval(() => {
+                countdown--;
+                document.getElementById("loaderCountdown").textContent = countdown;
+
+                if (countdown <= 0) {
+                    clearInterval(timer);
+                    window.location.href = url;
+                }
+            }, 1000);
+        }
+    </script>
+
+    <script>
+        window.addEventListener("pageshow", function (event) {
+            // If coming back from browser back button, hide loader
+            if (event.persisted) {
+                document.getElementById("universalLoader").style.display = "none";
+            }
+        });
+    </script>
     <div id="navbar"></div>
 
     <!-- Hero Section -->
@@ -55,8 +93,8 @@
         <div class="container">
             <div class="row align-items-center mb-5">
                 <div class="col-lg-5 mb-4 mb-lg-0">
-  <div class="driver-image" style="height:500px;"></div>
-</div>
+                <div class="driver-image" style="height:500px;"></div>
+            </div>
 
                 <div class="col-lg-7">
                     <h2 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 2rem; color: var(--dark-bg);">Dedicated Team of Drivers</h2>

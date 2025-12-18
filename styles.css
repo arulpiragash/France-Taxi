@@ -20,7 +20,7 @@ body{
 /* ========================================== */
 
 .navbar {
-    height: 130px;
+    height: 110px;
     color: var(--font-color);
     width: 100%;
     border-bottom:1px solid var(--font-color);
@@ -28,6 +28,7 @@ body{
 
 .navbar .navbar-nav .nav-link{
     color: var(--font-color) !important;
+    text-align: center;
 }
 
 .navbar-brand img{
@@ -42,7 +43,6 @@ body{
 .navbar .dropdown-toggle {
     font-size: 15px !important;          
     color: var(--font-color);
-    margin-right: 8px; 
     font-weight: bold;
     z-index: 1001;
 }
@@ -52,7 +52,8 @@ body{
 }
 .navbar,
 .navbar .nav-link:hover{
-    color: var(--secondary-color);
+    color: var(--secondary-color) !important;
+    cursor: pointer ;
 }
 
 .navbar .btn:hover{
@@ -71,6 +72,77 @@ body{
     text-decoration: none;
     box-shadow: none;
 }
+
+/* Loader Overlay */
+.loader-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none; /* Hidden initially */
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+    /* Loader Box */
+.loader-box {
+    background: rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+/* Loader Logo */
+.loader-logo {
+    width: 200px; /* Adjust size */
+    height: 65px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Loader Text */
+.loader-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 2px;
+     color: rgb(255, 255, 255);
+}
+
+/* Countdown Text */
+.countdown-text {
+    font-size: 16px;
+    color: rgb(32, 102, 232);
+    font-weight: bold;
+    margin-top: 20px;
+   
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+    width: 20px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: repeating-conic-gradient(rgb(8, 0, 255) 0 90deg,#eaeaea 0 180deg);
+    animation: l21 1s infinite linear;
+    margin-bottom: 100px;
+    position: fixed;
+    
+    left: 49.5%;
+     justify-content: center;
+    align-items: center;
+
+   
+  }
+  @keyframes l21 {
+    100% {transform: rotate(.5turn)}
+  }
+
+
 
 .bg-container {
     background-image: url('img/hero2.webp');
@@ -1313,7 +1385,8 @@ body{
     }
     
     .transfer-container .transfer-card {
-        max-width: 48%;
+        max-width: 80%;
+        display: block !important;
     }
     
     .our-service-container h2 {
@@ -1323,9 +1396,13 @@ body{
     .why-choose-container h2 {
         font-size: 42px !important;
     }
+
+    .why-choose-container{
+        flex-direction: column !important;
+    }
     
     .privileges-cards-container .card {
-        max-width: 48%;
+        max-width: 400px !important;
     }
     
     .slide-content .book-btn {
@@ -1341,11 +1418,12 @@ body{
     }
     
     .navbar .navbar-brand img {
-        width: 200px !important;
+        width: 160px !important;
+        height: 60px;
     }
     
     .navbar .nav-link, .navbar .btn, .navbar .dropdown-toggle {
-        font-size: 13px !important;
+        font-size: 10px !important;
         margin-right: 3px !important;
     }
     
@@ -1359,7 +1437,7 @@ body{
     }
     
     .bg-content h1 span {
-        text-indent: -350px !important;
+        text-indent: -320px !important;
     }
     
     .message-bar {
@@ -1383,7 +1461,7 @@ body{
     }
     
     .our-service-container h2 {
-        font-size: 50px !important;
+        font-size: 46px !important;
     }
     
     .why-choose-container h2 {
@@ -1403,11 +1481,11 @@ body{
     }
     
     .navbar .navbar-brand img {
-        width: 310px !important;
+        width: 200px !important;
     }
     
     .navbar .nav-link, .navbar .btn, .navbar .dropdown-toggle {
-        font-size: 21px !important;
+        font-size: 11px !important;
         margin-right: 10px !important;
     }
     

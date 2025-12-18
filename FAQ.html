@@ -11,6 +11,44 @@
 
     </head>
 <body>
+    <!-- Universal Loader Popup -->
+    <div class="loader-overlay" id="universalLoader" style="display:none;">
+        <div class="loader-box">
+            <img src="img/logo.png" alt="Logo" class="loader-logo">
+            <p class="loader-text" id="loaderMessage"></p>
+            <div class="loader"></div>
+            <p class="countdown-text">Redirecting in <span id="loaderCountdown">5</span> seconds...</p>
+        </div>
+    </div>
+    <script>
+        function showLoader(message, url) {
+
+            document.getElementById("universalLoader").style.display = "flex";
+            document.getElementById("loaderMessage").innerText = message;
+
+            let countdown = 5;
+            document.getElementById("loaderCountdown").textContent = countdown;
+
+            let timer = setInterval(() => {
+                countdown--;
+                document.getElementById("loaderCountdown").textContent = countdown;
+
+                if (countdown <= 0) {
+                    clearInterval(timer);
+                    window.location.href = url;
+                }
+            }, 1000);
+        }
+    </script>
+
+    <script>
+        window.addEventListener("pageshow", function (event) {
+            // If coming back from browser back button, hide loader
+            if (event.persisted) {
+                document.getElementById("universalLoader").style.display = "none";
+            }
+        });
+    </script>
     <!-- Navigation -->
     <div id="navbar"></div>
     <!-- Hero Section -->
@@ -457,7 +495,7 @@
                 });
             </script>
         </div>
-    <a href="#top" class="blue-van-plane-icon" id="backToTop">
+        <a href="#top" class="blue-van-plane-icon" id="backToTop">
             <i class="fa-solid fa-plane-up"></i>
         </a>
         <script>
