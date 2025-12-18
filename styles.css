@@ -193,7 +193,7 @@ body{
     width: 100%;
     background-color: #D1AE6C;
     color: black;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
     padding: 15px 0;
     position: relative;
@@ -204,7 +204,7 @@ body{
     padding: 60px 20px;
     background-color:rgb(44 37 35);
     color: var(--secondary-color);
-    font-size: 25px;
+    font-size: 20px;
     width: 100%;  
     height: auto;
 }
@@ -362,14 +362,14 @@ body{
 }
 
 .transfer-card .list-transfer li{
-    font-size: 21px;
+    font-size: 15px;
     color: var(--secondary-color);
     background-color: transparent;
     border: none;
 }
 
 .transfer-card p{
-    font-size: 21px;
+    font-size: 15px;
     color: var(--secondary-color);
 }
 
@@ -418,7 +418,7 @@ body{
 }
 
 .why-choose-container p {
-    font-size: 15px;
+    font-size: 12px;
     margin-bottom: 30px;
     color: rgb(44 37 35);
 }
@@ -429,7 +429,7 @@ body{
     list-style: none;
     border: none;
     background: transparent;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .why-choose-container img {
@@ -453,7 +453,7 @@ body{
     height: auto;
     font-size: 20px;
     padding: 30px;
-    flex: 1 1 300px;
+    flex: 3 3 300px;
 }
 
 .privileges-cards-container .card p{
@@ -465,10 +465,9 @@ body{
 }
 
 .carousel-container {
-    max-width: 1280px;
+    max-width: 1200px;
     margin: 0 auto;
     position: relative;
-    padding: 0 50px;
     overflow: hidden;
 }
 
@@ -572,11 +571,11 @@ body{
 }
 
 .nav-btn.prev {
-    left: 25px;
+    left: 1px;
 }
 
 .nav-btn.next {
-    right: 25px;
+    right: 1px;
 }
 
 .our-service-container h2{

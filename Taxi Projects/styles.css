@@ -528,7 +528,8 @@
         }
 
         .footer-section a:hover {
-            color: #D1AE6C;;
+            color: #D1AE6C;
+            cursor: pointer;
         }
 
         .payment-icons img {
