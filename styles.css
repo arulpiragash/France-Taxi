@@ -42,7 +42,7 @@ body{
 .navbar .dropdown-toggle {
     font-size: 15px !important;          
     color: var(--font-color);
-    margin-right: 12px; 
+    margin-right: 8px; 
     font-weight: bold;
     z-index: 1001;
 }
@@ -141,7 +141,7 @@ body{
     font-weight: 700;
     margin-bottom: 20px;
     color: var(--font-color);
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .our-fleets-container h2{
@@ -311,7 +311,7 @@ body{
     height: 85px;
     align-items: center;
     justify-content: center;
-    margin-left: 0;
+    margin-left: 2px;
     margin-right: auto;
 }
 
@@ -393,7 +393,7 @@ body{
 }
 
 .carousel-container {
-    max-width: 1400px;
+    max-width: 1280px;
     margin: 0 auto;
     position: relative;
     padding: 0 50px;
@@ -491,7 +491,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 1000;
+    z-index: 999;
     transition: background 0.3s;
 }
 
@@ -500,11 +500,11 @@ body{
 }
 
 .nav-btn.prev {
-    left: -25px;
+    left: 25px;
 }
 
 .nav-btn.next {
-    right: -25px;
+    right: 25px;
 }
 
 .our-service-container h2{
