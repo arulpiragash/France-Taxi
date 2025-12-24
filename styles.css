@@ -120,7 +120,6 @@ body{
     color: rgb(32, 102, 232);
     font-weight: bold;
     margin-top: 20px;
-   
 }
 /* HTML: <div class="loader"></div> */
 .loader {
@@ -131,9 +130,8 @@ body{
     animation: l21 1s infinite linear;
     margin-bottom: 100px;
     position: fixed;
-    
     left: 49.5%;
-     justify-content: center;
+    justify-content: center;
     align-items: center;
 
    

@@ -144,23 +144,23 @@
                             <div class="row">
                                 <div class="col-md-6 mb-3">
                                     <label for="firstName" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" id="firstName" placeholder="Your first name" required>
+                                    <input type="text" id="firstName" name="firstName" class="form-control" required>
                                 </div>
                                 <div class="col-md-6 mb-3">
                                     <label for="lastName" class="form-label">Last Name</label>
-                                    <input type="text" class="form-control" id="lastName" placeholder="Your last name" required>
+                                    <input type="text" id="lastName" name="lastName" class="form-control" required>
                                 </div>
                             </div>
 
                             <div class="mb-3">
                                 <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+                                <input type="email" id="email" name="email" class="form-control" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="phone" class="form-label" >Phone Number</label>
                                 <div class="phone-input-group">
-                                    <select class="form-control country-select" id="countryCode">
+                                    <select id="countryCode" name="countryCode" class="form-control country-select">
                                         <option value="+93">🇦🇫 +93</option>
                                         <option value="+355">🇦🇱 +355</option>
                                         <option value="+213">🇩🇿 +213</option>
@@ -339,18 +339,18 @@
                                         <option value="+260">🇿🇲 +260</option>
                                         <option value="+263">🇿🇼 +263</option>
                                     </select>
-                                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" maxlength="12" required>
+                                    <input type="tel" id="phone" name="phone" class="form-control" required>
                                 </div>
                             </div>
 
                             <div class="mb-3">
                                 <label for="subject" class="form-label">Subject</label>
-                                <input type="text" class="form-control" id="subject" placeholder="Enter subject" required>
+                                <input type="text" id="subject" name="subject" class="form-control" required>
                             </div>
 
                             <div class="mb-4">
                                 <label for="message" class="form-label">Message</label>
-                                <textarea class="form-control" id="message" placeholder="Your message..." required></textarea>
+                                <textarea id="message" name="message" class="form-control" required></textarea>
                             </div>
 
                             <button type="submit" class="btn-send">
@@ -358,6 +358,32 @@
                                 Send Message
                             </button>
                         </form>
+                        <script>
+                            document.getElementById("contactForm").addEventListener("submit", function(e) {
+                                e.preventDefault();
+                            
+                                const formData = new FormData(this);
+                            
+                                // country code + phone merge
+                                const fullPhone = document.getElementById("countryCode").value +
+                                                  document.getElementById("phone").value;
+                                formData.set("phone", fullPhone);
+                            
+                                fetch("send.php", {
+                                    method: "POST",
+                                    body: formData
+                                })
+                                .then(res => res.text())
+                                .then(data => {
+                                    alert(data);
+                                    document.getElementById("contactForm").reset();
+                                })
+                                .catch(err => {
+                                    alert("Something went wrong!");
+                                });
+                            });
+                            </script>
+                            
                     </div>
                 </div>
             </div>
